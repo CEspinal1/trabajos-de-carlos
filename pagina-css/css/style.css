@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: monospace;
+}
+
+header {
+  color: blue;
+  background-color: rgb(60, 0, 100);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  margin: 5px;
+  font-size: 70px;
+}
+
+section {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+section article {
+  background-color: rgb(60, 0, 100);
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  border-radius: 10px;
+  margin: 10px;
+}
+section article h2 {
+  font-size: 30px;
+  color: rgb(220, 30, 30);
+}
+section article p {
+  margin: 10px;
+  color: white;
+}
+
+footer {
+  color: black;
+  background-color: rgb(60, 0, 100);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
