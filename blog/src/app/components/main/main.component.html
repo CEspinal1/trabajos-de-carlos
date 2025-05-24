@@ -1,1 +1,14 @@
-<p>main works!</p>
+<section>
+    @for (car of cars; track car.model) {
+        <article>
+            <h2>{{ car.model }}</h2>
+            <img src="{{car.image}}">
+            <div class="info">
+                <p><i class="fa-solid fa-dumbbell"></i> {{ car.hp }} HP </p>
+                <p><i class="fa-solid fa-gauge"></i> {{ car.speed }} KM/H </p>
+                <p><i class="fa-solid fa-weight-hanging"></i> {{ car.weight }} KG</p>
+                <button (click)="changePage(car.model)">Más información</button>
+            </div>
+        </article>
+    }
+</section>
